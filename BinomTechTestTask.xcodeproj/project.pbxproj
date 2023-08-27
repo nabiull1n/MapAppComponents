@@ -111,8 +111,8 @@
 		39AADB7E2A94993C00605346 /* MainModule */ = {
 			isa = PBXGroup;
 			children = (
-				39AADB812A94996600605346 /* Model */,
-				39AADB802A94995E00605346 /* View */,
+				39AADB812A94996600605346 /* Models */,
+				39AADB802A94995E00605346 /* Views */,
 				39AADB7F2A94994E00605346 /* Controller */,
 			);
 			path = MainModule;
@@ -126,23 +126,23 @@
 			path = Controller;
 			sourceTree = "<group>";
 		};
-		39AADB802A94995E00605346 /* View */ = {
+		39AADB802A94995E00605346 /* Views */ = {
 			isa = PBXGroup;
 			children = (
 				39AF69492A98D0BD00049C4A /* CustomElements */,
 				39AF692E2A94D36500049C4A /* MapButtonView.swift */,
 				39AF69352A95244A00049C4A /* BottomSheetView.swift */,
 			);
-			path = View;
+			path = Views;
 			sourceTree = "<group>";
 		};
-		39AADB812A94996600605346 /* Model */ = {
+		39AADB812A94996600605346 /* Models */ = {
 			isa = PBXGroup;
 			children = (
 				39AF693A2A95F2F900049C4A /* InfoItemModel.swift */,
 				39AF694C2A98D85B00049C4A /* CustomAnnotationModel.swift */,
 			);
-			path = Model;
+			path = Models;
 			sourceTree = "<group>";
 		};
 		39AF69322A94E7F900049C4A /* Resources */ = {

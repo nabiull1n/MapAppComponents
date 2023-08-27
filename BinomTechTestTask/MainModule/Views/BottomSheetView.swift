@@ -10,7 +10,7 @@ import UIKit
 
 final class BottomSheetView: UIView {
     
-    private let data: [InfoItemModel] = [
+    private lazy var data: [InfoItemModel] = [
         InfoItemModel(imageName: Resources.StandardImageTitle.InfoTitle.wifi, labelText: "GPS"),
         InfoItemModel(imageName: Resources.StandardImageTitle.InfoTitle.calendar, labelText: "02.07.17"),
         InfoItemModel(imageName: Resources.StandardImageTitle.InfoTitle.clock, labelText: "14:00")

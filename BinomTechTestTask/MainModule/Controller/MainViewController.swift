@@ -11,10 +11,10 @@ import CoreLocation
 
 final class MainViewController: UIViewController {
     
-    private let mapViewContainer = MapButtonView()
+    private lazy var mapViewContainer = MapButtonView()
+    private lazy var locationPermissionGranted = false
+    private lazy var profileImageSize = CGSize(width: 50, height: 50)
     private var locationManager: CLLocationManager?
-    private var locationPermissionGranted = false
-    private let profileImageSize = CGSize(width: 50, height: 50)
     // MARK: - loadView
     override func loadView() {
         super.loadView()
